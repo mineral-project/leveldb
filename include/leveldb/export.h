@@ -25,7 +25,7 @@
 #endif  // defined(_WIN32)
 
 #else  // defined(LEVELDB_SHARED_LIBRARY)
-#define LEVELDB_EXPORT __declspec(dllexport)
+#define LEVELDB_EXPORT
 #endif
 
 #endif  // !defined(LEVELDB_EXPORT)
